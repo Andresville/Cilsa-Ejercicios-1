@@ -1,0 +1,35 @@
+Pasos: Se cargaron los datos en el orden que aparecen las casillas para ser rellenados.
+1 - Nombre
+2 - Apellido
+3 - Email
+4 - Fecha de nacimiento
+5 - Pais de residencia
+6 - Boton enviar
+
+Valores validos e invalidos:
+Nombre:
+Valores validos: letras, minimo 2 caracteres ( si bien en castellano es poco probable que existan nombres con 2 letras, podria ser que en otro idioma si existan por esto se solicita minimo 2 letras )
+Valores invalidos: numeros, caracteres especiales, menos de 2 caracteres
+Se valida que el campo no este vacio y que haya al menos 2 caracteres ( se deberia modificar para permitir solo letras )
+
+Apellido:
+Valores validos: letras, minimo 2 caracteres ( si bien en castellano es poco probable que existan apellidos con 2 letras, podria ser que en otro idioma si existan por esto se solicita minimo 2 letras )
+Valores invalidos: numeros, caracteres especiales, menos de 2 caracteres
+Se valida que el campo no este vacio y que haya al menos 2 caracteres ( se deberia modificar para permitir solo letras )
+
+Email:
+Valores validos: letras, numeros, caracteres especiales
+Valores invalidos: que no contenga @ y que posteriormente al @ no exista texto y un punto
+Se valida que el campo no este vacio y que haya @ y texto posteriormente ( se deberia modificar para que se pida un punto despues del @ )
+
+Fecha de nacimiento:
+Valores validos: numeros
+Valores invalidos: letras y caracteres especiales
+Se valida que el campo no este vacio y solo permite ingresar numeros en los campos fecha/mes/año
+
+Pais de residencia:
+Valores validos: letras, minimo 2 caracteres
+Valores invalidos: numeros, caracteres especiales, menos de 2 caracteres
+Se valida que el campo no este vacio y que haya al menos 2 caracteres ( se deberia modificar para permitir solo letras )
+
+Se exploro el formulario con el lector de pantalla de Windows que permitio acceder con la tecla TAB a todos los campos, informo el nombre del campo, el valor del placeholder, si era requerido y el valor de caracteres minimos o necesarios a ingresar en caso de completarse de manera incorrecta
