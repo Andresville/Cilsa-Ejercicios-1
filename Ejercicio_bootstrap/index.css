@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+
+
+/* Estilo claro */
+body.light-mode {
+    background-color: rgb(216, 243, 243);
+    color: rgb(10, 5, 5);
+}
+body.light-mode .form-container {
+    background-color: rgb(255, 255, 255);
+}
+body.light-mode .form-info input {
+    background-color: rgb(248, 237, 237);
+    color: rgb(10, 5, 5);
+}
+body.light-mode .form-info ::placeholder {
+    color: rgb(10, 5, 5);
+}
+body.light-mode .btn-primary {
+    background-color: rgb(9, 122, 187);
+    border: none;
+}
+body.light-mode .btn-info, body.light-mode .btn-warning {
+    background-color: rgb(9, 122, 187);
+    border: none;
+}
+/* Estilo oscuro */
+body.dark-mode {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+body.dark-mode .form-container {
+    background-color: rgb(57, 61, 58);
+}
+body.dark-mode .form-info input {
+    background-color: rgb(59, 73, 73);
+    color: rgb(255, 255, 255);
+}
+body.dark-mode .form-info ::placeholder {
+    color: rgb(255, 255, 255);
+}
+body.dark-mode .btn-primary {
+    background-color: rgb(239, 243, 17);
+    border: none;
+}
+body.dark-mode .btn-info, body.dark-mode .btn-warning {
+    background-color: rgb(239, 243, 17);
+    border: none;
+}
